@@ -9,7 +9,7 @@ RUN yum update -y && \
 ENV JAVA_HOME=/usr/java/default/ \
     ZK_HOSTS=localhost:2181 \
     KM_VERSION=1.3.2.1 \
-    KM_REVISION=8d9e1e62dc88509d7a33d7b6951759f8c6eefd07 \
+    KM_REVISION=e96d1e6de1f548709b2be7eebc170d3c60666055 \
     KM_CONFIGFILE="conf/application.conf"
 
 ADD start-kafka-manager.sh /kafka-manager-${KM_VERSION}/start-kafka-manager.sh
